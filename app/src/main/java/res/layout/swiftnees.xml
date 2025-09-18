@@ -1,0 +1,321 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:padding="8dp">
+		<LinearLayout
+			android:id="@+id/linear43"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear67"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button27"
+					android:layout_width="270dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="Swiftness"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="right" />
+				<ImageView
+					android:id="@+id/imageview45"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:src="@drawable/pos_bottl__14"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear68"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageview18"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:background="@drawable/pos_bottl__5"
+					android:src="@drawable/pos_bottl__14"
+					android:scaleType="fitCenter" />
+				<TextView
+					android:id="@+id/textview6"
+					android:layout_width="270dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="right"
+					android:text="خێرایت دەداتێ . "
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:alpha="0.5"
+					android:layout_gravity="right" />
+			</LinearLayout>
+			<ImageView
+				android:id="@+id/imageview34"
+				android:layout_width="match_parent"
+				android:layout_height="40dp"
+				android:src="@drawable/ytr_1"
+				android:scaleType="centerCrop"
+				android:scaleY="1.3" />
+			<LinearLayout
+				android:id="@+id/linear50"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button31"
+					android:layout_width="270dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="Swiftness (1:30)"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="left" />
+				<ImageView
+					android:id="@+id/imageview24"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:src="@drawable/pos_bottl__14"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear48"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button32"
+					android:layout_width="270dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="Regeneration (3:00)"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="left" />
+				<ImageView
+					android:id="@+id/imageview22"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:src="@drawable/pos_bottl__14"
+					android:scaleType="fitCenter"
+					android:layout_gravity="right" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear49"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button33"
+					android:layout_width="270dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="Regeneration (8:00)"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="left" />
+				<ImageView
+					android:id="@+id/imageview23"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:src="@drawable/pos_bottl__14"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<ImageView
+				android:id="@+id/imageview35"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:src="@drawable/ytr_2"
+				android:scaleType="centerCrop"
+				android:scaleY="1.3"
+				android:layout_gravity="center_horizontal" />
+			<LinearLayout
+				android:id="@+id/linear63"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button39"
+					android:layout_width="270dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="Splash Swiftness (2:15)"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="left" />
+				<ImageView
+					android:id="@+id/imageview30"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:src="@drawable/splash_po_8_11"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear62"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button38"
+					android:layout_width="270dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="Splash Swiftness II (1:07)"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="left" />
+				<ImageView
+					android:id="@+id/imageview29"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:src="@drawable/splash_po_8_11"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear64"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button40"
+					android:layout_width="270dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="Splash Swiftness (6:00)"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="left" />
+				<ImageView
+					android:id="@+id/imageview31"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:src="@drawable/splash_po_8_11"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<ImageView
+				android:id="@+id/imageview33"
+				android:layout_width="match_parent"
+				android:layout_height="30dp"
+				android:src="@drawable/ghj"
+				android:scaleType="centerCrop"
+				android:scaleY="1.3"
+				android:layout_gravity="center_horizontal" />
+			<LinearLayout
+				android:id="@+id/linear57"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button35"
+					android:layout_width="270dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="Lingering Swiftness (0:45)"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="left" />
+				<ImageView
+					android:id="@+id/imageview26"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:src="@drawable/ling"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear56"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button34"
+					android:layout_width="270dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="Lingering Swiftness II(0:22)"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="left" />
+				<ImageView
+					android:id="@+id/imageview25"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:src="@drawable/ling"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear58"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button36"
+					android:layout_width="270dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="Lingering Swiftness (2:00)"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="left" />
+				<ImageView
+					android:id="@+id/imageview27"
+					android:layout_width="50dp"
+					android:layout_height="50dp"
+					android:src="@drawable/ling"
+					android:scaleType="fitCenter" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>
