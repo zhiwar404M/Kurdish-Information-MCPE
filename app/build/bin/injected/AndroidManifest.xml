@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="Kurdish.Information.MCPE"
+	android:versionCode="2"
+	android:versionName="1.0 V">
+
+	<uses-sdk
+		android:minSdkVersion="21"
+		android:targetSdkVersion="28"/>
+
+	<uses-permission
+		android:name="android.permission.INTERNET"/>
+
+	<uses-permission
+		android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+	<uses-permission
+		android:name="com.huawei.permission.push.ACCESS_BIND_SERVICE"/>
+
+	<uses-permission
+		android:name="android.permission.SHUTDOWN"/>
+
+	<uses-permission
+		android:name="huawei.android.permission.HWSHUTDOWN"/>
+
+	<uses-permission
+		android:name="android.permission.INTERNET"/>
+
+	<uses-permission
+		android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
+
+	<uses-permission
+		android:name="android.permission.CONNECTIVITY_INTERNAL"/>
+
+	<uses-permission
+		android:name="android.permission.READ_WALLPAPER_INTERNAL"/>
+
+	<uses-permission
+		android:name="android.permission.WAKE_LOCK"/>
+
+	<uses-permission
+		android:name="com.google.android.c2dm.permission.RECEIVE"/>
+
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/app_icon"
+		android:label="@string/app_name"
+		android:usesCleartextTraffic="true"
+		android:theme="@style/AppTheme">
+
+		<activity
+			android:name=".MainActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:windowSoftInputMode="stateHidden">
+
+			<intent-filter>
+
+				<action
+					android:name="android.intent.action.MAIN"/>
+
+				<category
+					android:name="android.intent.category.LAUNCHER"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:name=".ProtectionActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".FireprotectionActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".FeatherfallingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".BlastprotectionActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".ProjectileActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".ThornsActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".RespirationActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".DepthActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".AquaActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".SharpnessActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".SmiteActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".BaneOfArthropodsActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".KnockbackActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".FireAspectActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".LootingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".EfficiencyActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".SilktouchActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".UnberakingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".FortuneActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".PowerActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".PunchActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".FlameActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".InfinityActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LuckOftheSeaActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LureActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".FrostwalkerActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".MendingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".ImpalingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".LoyaltyActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".RiptideActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".ChannelingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".MultishotActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".QuickchargeActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".SoulspeedActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".PiercingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".CurseofvanishingBindingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".PoshActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".RegenerationActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".SwiftneesActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".FireresistanceActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".PoisonActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".HealingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".NightvisionActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".WeaknessActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".StrengthActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".SlownessActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".LeapingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".HarmingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".WaterbreathingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".InvisibilityActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".TurtlemasterActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".SlowfallingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".ButlysarataActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".OreActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".NetherriteActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".DiamondActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".EmeraldActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".IronActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".LapizActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".QuartzActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".GoalActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".GoldActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".CopperActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".CrestalActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".ProfileActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".EmailActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".EnchantActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".RegeneratioActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".Regeneration2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Regeneration3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashRegenerationActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashRegeneration2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashRegeneration3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringRegenerationActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringRegeneration2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringRegeneration3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Swiftness1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Swiftness2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Swiftness3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".FireResistance2lActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:windowSoftInputMode="stateHidden"/>
+
+		<activity
+			android:name=".Poison1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Poison2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Poison3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Healing1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Healing2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".NightVision2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Weakness1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Weakness2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Strength1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Strength2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Strength3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Slowness1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Slowness2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Slowness3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Leaping1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Leaping2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Leaping3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Harming1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Harming2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".WaterBreathing1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".WaterBreathing2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Invisibility1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".Invisibility2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".TurtleMaster1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".TurtleMaster2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".TurtleMaster3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SlowFalling1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SlowFalling2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashSwfitnessActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashSwfitness2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashSwfitness3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashFireActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashFire2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashPosion1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashPosio2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashPosion3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashHealingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashHealing2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashNightActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashNight2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashWeaknessActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashWeakness2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashStrenghActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashStrengh2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashStrengh3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashLeapingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashLeaping2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashLeaping3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashHarmingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashHarming2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashWaterActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashWater2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashInvisibilityActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashInvisibility2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashTurtleActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashTurtle2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashTurtle3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashSlowActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashSlow2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringSwiftnessActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringSwiftness2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringSwiftness3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringFireActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringFire2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringPosionActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringPoision2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringPoision3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringHealing1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringHealing2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringNightActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringNight2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringWeaknessActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringWeakness2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringStrengthActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringStrength2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringStrength3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringLeapingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringLeaping2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringLeaping3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringHarmingActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringHarming2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringWaterActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringWater2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringInvisiblityActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringInvisiblity2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringTurtleActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringTurtle2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringTurtle3Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringSlowActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringSlow2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashSlownessActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashSlowness2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringSlownessActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringSlowness2Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".AwkwardActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".ThickActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".MundaneActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashAwkwardActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashMundaneActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringawkwardActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringThickActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringMundaneActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".SplashWater1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".LingeringWater1Activity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".FireActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".NightActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".BazarActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".WelcomeBazarActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:theme="@style/AppTheme.FullScreen"
+			android:screenOrientation="portrait"/>
+
+		<activity
+			android:name=".DebugActivity"
+			android:screenOrientation="portrait"/>
+
+		<meta-data
+			android:name="com.google.android.gms.version"
+			android:value="@integer/google_play_services_version"/>
+
+		<provider
+			android:name="com.google.firebase.provider.FirebaseInitProvider"
+			android:authorities="Kurdish.Information.MCPE.firebaseinitprovider"
+			android:exported="false"
+			android:initOrder="100"/>
+
+		<service
+			android:name="com.google.firebase.components.ComponentDiscoveryService"
+			android:exported="false">
+
+			<meta-data
+				android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+				android:value="com.google.firebase.components.ComponentRegistrar"/>
+
+		</service>
+
+		<service
+			android:name="com.google.firebase.messaging.FirebaseMessagingService"
+			android:exported="false">
+
+			<intent-filter
+				android:priority="-500">
+
+				<action
+					android:name="com.google.firebase.MESSAGING_EVENT"/>
+
+			</intent-filter>
+
+		</service>
+
+		<receiver
+			android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+			android:exported="true"
+			android:permission="com.google.android.c2dm.permission.SEND">
+
+			<intent-filter>
+
+				<action
+					android:name="com.google.android.c2dm.intent.RECEIVE"/>
+
+			</intent-filter>
+
+		</receiver>
+
+		<uses-library
+			android:name="org.apache.http.legacy"
+			android:required="false"/>
+
+		<activity
+			android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+			android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:hardwareAccelerated="true"/>
+
+		<activity
+			android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+			android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+			android:hardwareAccelerated="true"/>
+
+		<activity
+			android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+			android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+			android:hardwareAccelerated="false"/>
+
+		<activity
+			android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+			android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+			android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+			android:hardwareAccelerated="false"/>
+
+	</application>
+
+</manifest>
+
