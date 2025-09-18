@@ -1,0 +1,768 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<ScrollView
+		android:id="@+id/vscroll1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp">
+		<LinearLayout
+			android:id="@+id/linear19"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="#FFFFFF"
+				android:gravity="left"
+				android:layout_gravity="right">
+				<Button
+					android:id="@+id/reklam"
+					android:layout_width="215dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:text="+10Kurdish coin=یەک ریکلام"
+					android:textSize="16sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="left" />
+				<TextView
+					android:id="@+id/textview4"
+					android:layout_width="wrap_content"
+					android:layout_height="45dp"
+					android:padding="8dp"
+					android:gravity="center_horizontal"
+					android:text="0"
+					android:textSize="20sp"
+					android:textStyle="bold|italic"
+					android:textColor="#000000"
+					android:translationY="5.0dp"
+					android:layout_gravity="center_horizontal" />
+				<Button
+					android:id="@+id/button64"
+					android:layout_width="60dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/kurdish_coin"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear70"
+				android:layout_width="match_parent"
+				android:layout_height="60dp"
+				android:padding="8dp"
+				android:orientation="horizontal" />
+			<LinearLayout
+				android:id="@+id/linear68"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button61"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="@drawable/download"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button62"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="top"
+					android:text="نرخی ئەم Skine تەنها به 20Kurdish Coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="top" />
+				<Button
+					android:id="@+id/button63"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear67"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button58"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button59"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right|top"
+					android:text="نرخی ئەم Skine تەنها به\n  40 Kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button60"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear66"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button55"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button56"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  60 Kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button57"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear65"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button52"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button53"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  80 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button54"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear64"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button49"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button50"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  110 Kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button51"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear63"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button46"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button47"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button48"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear62"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button43"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button44"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button45"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear61"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button40"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button41"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button42"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear60"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button37"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button38"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button39"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear59"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button34"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button35"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button36"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear58"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button31"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button32"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button33"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear18"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button4"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/skin6"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button6"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear50"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button7"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button8"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button9"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear51"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button10"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button11"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button12"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear52"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button13"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button14"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button15"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear53"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button16"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button17"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button18"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear54"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button19"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button20"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button21"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear55"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button22"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button23"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button24"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear56"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button25"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button26"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button27"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear57"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:orientation="horizontal">
+				<Button
+					android:id="@+id/button28"
+					android:layout_width="40dp"
+					android:layout_height="70dp"
+					android:padding="8dp"
+					android:background="#000000"
+					android:textSize="12sp"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button29"
+					android:layout_width="220dp"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@android:color/transparent"
+					android:gravity="right"
+					android:text="نرخی ئەم Skine تەنها به\n  20 kurdish coin"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000" />
+				<Button
+					android:id="@+id/button30"
+					android:layout_width="50dp"
+					android:layout_height="60dp"
+					android:padding="8dp"
+					android:background="@drawable/jsd_2"
+					android:textSize="12sp"
+					android:textColor="#000000"
+					android:translationY="5.0dp" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

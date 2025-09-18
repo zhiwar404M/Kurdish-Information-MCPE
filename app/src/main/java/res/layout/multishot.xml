@@ -1,0 +1,98 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear41"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:padding="8dp"
+		android:background="#000000"
+		android:orientation="vertical">
+		<ScrollView
+			android:id="@+id/vscroll1"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:padding="8dp">
+			<LinearLayout
+				android:id="@+id/linear39"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:background="#FFFFFF"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear33"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="horizontal">
+					<ImageView
+						android:id="@+id/imageview25"
+						android:layout_width="50dp"
+						android:layout_height="50dp"
+						android:src="@drawable/book"
+						android:scaleType="fitCenter"
+						android:layout_gravity="top" />
+					<TextView
+						android:id="@+id/textview2"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:padding="8dp"
+						android:gravity="center_horizontal"
+						android:text="Multishot"
+						android:textSize="18sp"
+						android:textStyle="bold|italic"
+						android:textColor="#000000"
+						android:layout_weight="100" />
+				</LinearLayout>
+				<TextView
+					android:id="@+id/textview3"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:gravity="right"
+					android:text="کاتێک تیر هەڵدەدەیت، 3 تیر لە جیاتی 1 تیر هەڵ دەدرێت،\nهەندێک جاریش 1 تیر هەڵ دەدرێت!"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="right" />
+				<LinearLayout
+					android:id="@+id/linear34"
+					android:layout_width="match_parent"
+					android:layout_height="20dp"
+					android:padding="8dp"
+					android:orientation="horizontal" />
+				<TextView
+					android:id="@+id/textview5"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="ئینچانتی(Multishot) تەنها دەخرێتە سەر CrossBow"
+					android:textSize="20sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_gravity="right" />
+				<LinearLayout
+					android:id="@+id/linear40"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:orientation="horizontal"
+					android:layout_gravity="center_horizontal">
+					<ImageView
+						android:id="@+id/bejama"
+						android:layout_width="50dp"
+						android:layout_height="50dp"
+						android:src="@drawable/ite_4"
+						android:scaleType="centerCrop"
+						android:translationX="130.0dp"
+						android:layout_gravity="center_horizontal" />
+				</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+	</LinearLayout>
+</LinearLayout>
