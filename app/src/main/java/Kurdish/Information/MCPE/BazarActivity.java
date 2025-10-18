@@ -159,6 +159,7 @@ public class BazarActivity extends AppCompatActivity {
 		setContentView(R.layout.bazar);
 		initialize(_savedInstanceState);
 		FirebaseApp.initializeApp(this);
+		MobileAds.initialize(this);
 		initializeLogic();
 	}
 	
@@ -253,6 +254,9 @@ public class BazarActivity extends AppCompatActivity {
 		d = new AlertDialog.Builder(this);
 		data1 = getSharedPreferences("data", Activity.MODE_PRIVATE);
 		
+		// Test rewarded ad unit ID by default; replace for production if needed
+		_reward_ad_unit_id = "ca-app-pub-3940256099942544/5224354917";
+
 		reklam.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
@@ -619,4 +623,4 @@ public class BazarActivity extends AppCompatActivity {
 		}
 		data1.edit().putString("data", textview4.getText().toString()).commit();
 	}
-}
+}

@@ -40,6 +40,8 @@ import androidx.fragment.app.FragmentManager;
 import com.google.android.gms.ads.AdError;
 import com.google.android.gms.ads.FullScreenContentCallback;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.OnUserEarnedRewardListener;
 import com.google.android.gms.ads.rewarded.RewardItem;
 import com.google.android.gms.ads.rewarded.RewardedAd;
@@ -211,6 +213,7 @@ public class EnchantActivity extends AppCompatActivity {
 	private Button _drawer_button31;
 	
 	private Intent i = new Intent();
+	private AdView adView;
 	private TimerTask tm;
 	private RewardedAd ads;
 	private OnUserEarnedRewardListener _ads_on_user_earned_reward_listener;
@@ -227,6 +230,7 @@ public class EnchantActivity extends AppCompatActivity {
 		setContentView(R.layout.enchant);
 		initialize(_savedInstanceState);
 		FirebaseApp.initializeApp(this);
+		MobileAds.initialize(this);
 		initializeLogic();
 	}
 	
@@ -387,6 +391,10 @@ public class EnchantActivity extends AppCompatActivity {
 		_drawer_imageview10 = _nav_view.findViewById(R.id.imageview10);
 		_drawer_button31 = _nav_view.findViewById(R.id.button31);
 		dialog = new AlertDialog.Builder(this);
+		adView = findViewById(R.id.adView);
+		if (adView != null) {
+			adView.loadAd(new AdRequest.Builder().build());
+		}
 		
 		imageview48.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -887,6 +895,10 @@ public class EnchantActivity extends AppCompatActivity {
 	}
 	
 	private void initializeLogic() {
+		// Load banner ad if present in layout
+		if (adView != null) {
+			adView.loadAd(new AdRequest.Builder().build());
+		}
 		_drawer_button29.setOnClickListener(new View.OnClickListener() {
 						@Override
 						public void onClick(View _view) {
@@ -956,4 +968,4 @@ public class EnchantActivity extends AppCompatActivity {
 		}
 	}
 	
-}
+}
