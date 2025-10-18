@@ -30,6 +30,13 @@ import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import com.google.firebase.FirebaseApp;
+// Unity Ads imports (ensure unity-ads library present when building with AIDE)
+import com.unity3d.ads.*;
+import com.unity3d.ads.banner.*;
+import com.unity3d.ads.banner.BannerErrorInfo;
+import com.unity3d.ads.banner.BannerView;
+import com.unity3d.ads.banner.BannerView.IListener;
+import com.unity3d.ads.banner.BannerPosition;
 import java.io.*;
 import java.io.InputStream;
 import java.text.*;
@@ -259,6 +266,13 @@ public class OreActivity extends AppCompatActivity {
 	}
 	
 	private void initializeLogic() {
+        // Initialize Unity Ads in this screen if needed (replace with your game ID)
+        _UnityAds("1234567", false);
+        // Preload a placement so it's ready to show
+        try {
+            UnityAds.load("Rewarded_Android", loadListener);
+        } catch (Throwable ignored) {
+        }
 	}
 	
 	public void _onRewardComplete() {
@@ -272,8 +286,8 @@ public class OreActivity extends AppCompatActivity {
 	private IUnityAdsLoadListener loadListener = new IUnityAdsLoadListener() {
 			
 			@Override
-			public void onUnityAdsAdLoaded(String __UnityPlacementID) {
-					UnityAds.show(MainActivity.this, __UnityPlacementID, new UnityAdsShowOptions(), showListener);
+            public void onUnityAdsAdLoaded(String __UnityPlacementID) {
+                    UnityAds.show(OreActivity.this, __UnityPlacementID, new UnityAdsShowOptions(), showListener);
 			
 		}
 			@Override
@@ -343,4 +357,4 @@ public class OreActivity extends AppCompatActivity {
 	{
 	}
 	
-}
+}

@@ -34,6 +34,7 @@ import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import com.google.firebase.FirebaseApp;
+import com.google.android.gms.ads.MobileAds;
 import java.io.*;
 import java.io.InputStream;
 import java.text.*;
@@ -75,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
 		setContentView(R.layout.main);
 		initialize(_savedInstanceState);
 		FirebaseApp.initializeApp(this);
+		MobileAds.initialize(this);
 		initializeLogic();
 	}
 	

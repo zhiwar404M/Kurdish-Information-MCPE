@@ -1413,6 +1413,10 @@
 		<meta-data
 			android:name="com.google.android.gms.version"
 			android:value="@integer/google_play_services_version" />
+		<!-- AdMob app ID is required for Google Mobile Ads SDK -->
+		<meta-data
+			android:name="com.google.android.gms.ads.APPLICATION_ID"
+			android:value="@string/admob_app_id" />
 		<provider
 			android:name="com.google.firebase.provider.FirebaseInitProvider"
 			android:authorities="Kurdish.Information.MCPE.firebaseinitprovider"
@@ -1442,7 +1446,8 @@
 		</receiver>
 		<uses-library
 			android:name="org.apache.http.legacy"
-			android:required="false" />
+			android:required="false" />
+
 <activity
         android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
         android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
@@ -1464,4 +1469,4 @@
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
         android:hardwareAccelerated="false"/>
 	</application>
-</manifest>
+</manifest>

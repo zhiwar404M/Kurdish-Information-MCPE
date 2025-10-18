@@ -1,3 +1,5 @@
 <resources>
 	<string name="app_name" translatable="false">Minefo kr</string>
+	<!-- Replace with your real AdMob App ID when releasing -->
+	<string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
 </resources>
